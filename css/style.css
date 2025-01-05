@@ -1,0 +1,76 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* ul {
+  list-style: none;
+}
+
+body {
+  height: 1000px;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.9568627451);
+  border-bottom: 2px solid #160467;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  align-items: center;
+}
+header .logo {
+  background-image: url("../img/refrio-logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 220px;
+}
+header nav {
+  width: 50%;
+}
+header nav ul {
+  display: flex;
+  height: 100%;
+  height: 50px;
+  width: 100%;
+}
+header nav ul li {
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.1px solid white;
+  margin: 30px;
+  height: 20px;
+  width: 300px;
+}
+header nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+main .cardapio {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  padding-top: 20px;
+}
+main .imagem-cardapio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .imagem-cardapio .imagem {
+  background-image: url("../img/Cardápio  Semanal_page-0001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 120vh;
+}
+
+/*# sourceMappingURL=style.css.map */
