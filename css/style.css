@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +20,7 @@ header {
   align-items: flex-end;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 header .logo {
   background-image: url("../img/refrio-logo.png");
@@ -60,11 +60,9 @@ main .imagem-cardapio {
   align-items: center;
   width: 100%;
 }
-main .imagem-cardapio .imagem {
-  background-image: url("../img/Cardápio  Semanal_page-0001.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+main .imagem-cardapio img {
+  width: 100vw;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
