@@ -50,6 +50,10 @@ header nav ul li a {
   text-decoration: none;
 }
 
+main h3 {
+  text-align: center;
+  margin: 20px;
+}
 main .imagem-cardapio {
   display: flex;
   justify-content: center;
