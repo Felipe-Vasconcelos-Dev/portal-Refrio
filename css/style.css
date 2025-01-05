@@ -30,7 +30,7 @@ header .logo {
   width: 220px;
 }
 header nav {
-  width: 50%;
+  width: 20%;
 }
 header nav ul {
   display: flex;
@@ -64,8 +64,8 @@ main .imagem-cardapio .imagem {
   background-image: url("../img/Cardápio  Semanal_page-0001.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 95vw;
-  height: 130vh;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
