@@ -7,13 +7,9 @@
   list-style: none;
 }
 
-body {
-  height: 1000px;
-}
-
 header {
   width: 100%;
-  height: 120px;
+  height: 180px;
   background-color: rgba(255, 255, 255, 0.9568627451);
   border-bottom: 2px solid #160467;
   display: flex;
