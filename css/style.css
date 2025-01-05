@@ -55,8 +55,8 @@ header nav ul li a {
 }
 
 main .cardapio {
-  width: 100%;
-  height: 120px;
+  width: 100vw;
+  height: 100vh;
   text-align: center;
   padding-top: 20px;
 }
@@ -64,13 +64,14 @@ main .imagem-cardapio {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 main .imagem-cardapio .imagem {
   background-image: url("../img/Cardápio  Semanal_page-0001.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 95%;
-  height: 120vh;
+  width: 95vw;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
