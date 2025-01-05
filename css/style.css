@@ -30,7 +30,7 @@ header .logo {
   width: 220px;
 }
 header nav {
-  width: 40%;
+  width: 100%;
 }
 header nav ul {
   display: flex;
